@@ -24,7 +24,7 @@ admin.autodiscover()
 
 router = routers.DefaultRouter()
 router.register('room', views.RoomViewSet)
-router.register('door', views.DoorViewSet)
+#router.register('door', views.DoorViewSet)
 
 urlpatterns = [
     path('favicon.ico', RedirectView.as_view(
