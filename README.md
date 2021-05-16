@@ -18,8 +18,10 @@
 ## When you open the web page to view the sensor statue, you should see the following:
 
 ![no motion](https://user-images.githubusercontent.com/49162254/118405604-d1472a00-b646-11eb-9c62-159f36c92a24.PNG)
+
 when motion is not detected
 
 ![motion detected](https://user-images.githubusercontent.com/49162254/118405627-d60bde00-b646-11eb-9219-1361ce2efc95.PNG)
+
 when motion is detected
 
