@@ -24,3 +24,7 @@ sudo pip3 install opencv-python
 
 # Step 2 Go to camera_stream_flask
 `cd EE-629_IoT/camera_stream_flask`
+
+# Step 3 Run the main.py script using Python3
+`python3 main.py`
+***The server will be running on port 8000 by default. To view the live stream, open a Chromium broweser on Raspberry Pi and go to 0.0.0.0:8000 or on your computer open the browser and type in the address bar <YOUR_PI_IP:8000>***
