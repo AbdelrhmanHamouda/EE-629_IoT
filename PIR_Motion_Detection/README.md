@@ -13,4 +13,4 @@ sudo pip3 install flask
 ## Run PIR.py
 ` python3 PIR.py`
 
-***The server will be running on port 5000 by default. To view the status of the sensor, open a Chromium broweser on Raspberry Pi and go to 0.0.0.0:5000 or on your computer open the browser and type in the address bar <YOUR_RASPBERRY_PI_IP:5000>
+***The server will be running on port 5000 by default. To view the status of the sensor, open a Chromium broweser on Raspberry Pi and go to 0.0.0.0:5000 or on your computer open the browser and type in the address bar <YOUR_RASPBERRY_PI_IP:5000>***
