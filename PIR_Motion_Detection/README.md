@@ -5,7 +5,7 @@
 - LED and a resistor in the range of 330 Ω to 1KΩ should work and some female to male wires. **the LED is not necessary, it's just an indication that the sensor is working as it turns on when the sensor detects motion and off when motion is not detected**
 
 # Dependencies and Required Pakcages
-```
+```shell
 sudo apt-get update 
 sudo apt-get upgrade
 sudo pip3 install flask
@@ -30,4 +30,4 @@ _source: https://projects.raspberrypi.org/en/projects/getting-started-with-picam
 ## Run PIR.py
 ` python3 PIR.py`
 
-***The server will be running on port 5000 by default. To view the status of the sensor, open a Chromium broweser on Raspberry Pi and go to 0.0.0.0:5000 or on your computer open the browser and type in the address bar <YOUR_RASPBERRY_PI_IP:5000>***
+***The server will be running on port `5000` by default. To view the status of the sensor, open a Chromium broweser on Raspberry Pi and go to `0.0.0.0:5000` or on your computer open the browser and type in the address bar `YOUR_RASPBERRY_PI_IP:5000`***
