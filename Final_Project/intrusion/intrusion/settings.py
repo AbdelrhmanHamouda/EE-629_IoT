@@ -25,7 +25,7 @@ SECRET_KEY = '4&@o@-x60(x$y@us^2m)6i4u_b7&&*l94wdt&3hjusbp_q7rf_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +78,7 @@ WSGI_APPLICATION = 'intrusion.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'IoT Intrusion Detection',
+        'NAME': 'intrusion',
 	'USER': 'pi',
 	'PASSWORD': '0553156',
 	'HOST': '',
