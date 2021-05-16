@@ -21,7 +21,7 @@ sudo pip3 install flask
 - The camera module should be connected as shown in the picture below
 
 ![connect-camera](https://user-images.githubusercontent.com/49162254/118405175-81676380-b644-11eb-910e-2e9b772d4dcf.gif)
-_ source: https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2 _
+_source: https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2_
 
 ## Run PIR.py
 ` python3 PIR.py`
