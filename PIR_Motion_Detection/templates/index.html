@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<center>
+    <head>
+      <meta http-equiv="refresh" content="3" >
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/static/bootstrap.min.css">
+	<script src="/static/jquery.min.js"></script>
+	<script src="/static/bootstrap.min.js"></script>	
+	<h1>Intrusion Detection</h1>
+    </head>
+    <body>
+      <h2><font color="blue">motion {{motion}}</font>
+      <br>
+      <br>
+      <div class="container-fluid">
+		<center>
+		{% if motion == 'not detected' %}
+			<img src="/static/r.png">
+		{% else %}
+			<img src="/static/g.png">
+		{% endif %}
+		</center>
+	</div>
+    </body>
+</center>
+</html>
