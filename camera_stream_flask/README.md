@@ -19,13 +19,11 @@ sudo pip3 install imutils
 sudo pip3 install opencv-python
 ```
 # To get it working on your Pi:
-## Step 1 Clone the repo
-` git clone https://github.com/anasaqeel/EE-629_IoT.git`
 
-## Step 2 Go to camera_stream_flask
+## Step 1 Go to camera_stream_flask
 `cd EE-629_IoT/camera_stream_flask`
 
-## Step 3 Run the main.py script using Python3
+## Step 2 Run the main.py script using Python3
 `python3 main.py`
 
 ***The server will be running on port 8000 by default. To view the live stream, open a Chromium broweser on Raspberry Pi and go to 0.0.0.0:8000 or on your computer open the browser and type in the address bar <YOUR_RASPBERRY_PI_IP:8000>***
