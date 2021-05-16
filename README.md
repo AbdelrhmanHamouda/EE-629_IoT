@@ -1,2 +1,4 @@
 # EE-629_IoT
-A repo for the internet of things course offered at Stevens Institute of Technology
+***This is the final project of the EE-629 IoT course***
+
+
