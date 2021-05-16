@@ -10,6 +10,18 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo pip3 install flask
 ```
+# Hardware connection
+- The + side of the LED (longer lead) should be connected to GPIO 18, the 6th pin from the left of the top row
+- The - side of the LED (shorter lead) should be connected to one side of the resistor
+- The other side of the resistor should be connected to ground, the 3rd pin from the left of the top row
+- The sensor has three terminals:
+  - 5V which should be connected to 1st pin from the left of the top row
+  - GND which should be connected to the 3rd pin from the left of the top row
+  - Signal or out which should be connected to GPIO 27, the 7th pin from the left of the bottom row
+- The camera module should be connected as shown in the picture below
+
+![connect-camera](https://user-images.githubusercontent.com/49162254/118405175-81676380-b644-11eb-910e-2e9b772d4dcf.gif)
+
 ## Run PIR.py
 ` python3 PIR.py`
 
