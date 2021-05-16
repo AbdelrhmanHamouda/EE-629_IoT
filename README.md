@@ -10,7 +10,7 @@
 ## Clone the repo into your directory
 `git clone https://github.com/anasaqeel/EE-629_IoT.git`
 
-## In a terminal, go to PIR_Motion_Detection
+## In a terminal window, go to PIR_Motion_Detection
 `cd PIR_Motion_Detection`
 
 ## Run PIR.py as mentioned in [PIR_Motion_Detection](https://github.com/anasaqeel/EE-629_IoT/tree/main/PIR_Motion_Detection)
@@ -25,7 +25,7 @@
 
 
 
-## In another terminal windo, go to camera_stream_flask
+## In another terminal window, go to camera_stream_flask
 `cd camera_stream_flask`
 ## Run main.py as mentioned in [camera_stream_flask](https://github.com/anasaqeel/EE-629_IoT/tree/main/camera_stream_flask)
 
