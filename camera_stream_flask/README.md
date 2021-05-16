@@ -2,8 +2,8 @@
 - I've done some slight modifications on the index.html file and the main.py to make it work on a differente port
 
 #Dependencies and Packages Required
-`
-sudo apt-get install libatlas-base-dev
+
+`sudo apt-get install libatlas-base-dev
 sudo apt-get install libjasper-dev
 sudo apt-get install libqtgui4 
 sudo apt-get install libqt4-test
