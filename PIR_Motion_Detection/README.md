@@ -18,6 +18,9 @@ sudo pip3 install flask
   - 5V which should be connected to 1st pin from the left of the top row
   - GND which should be connected to the 3rd pin from the left of the top row
   - Signal or out which should be connected to GPIO 27, the 7th pin from the left of the bottom row
+
+![PIR connection](https://user-images.githubusercontent.com/49162254/118406044-af4ea700-b648-11eb-8b6c-051cc5811f49.jpg)
+
 - The camera module should be connected as shown in the picture below
 
 ![connect-camera](https://user-images.githubusercontent.com/49162254/118405175-81676380-b644-11eb-910e-2e9b772d4dcf.gif)
